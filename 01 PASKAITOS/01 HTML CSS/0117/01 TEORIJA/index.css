@@ -1,0 +1,33 @@
+.logoImage {
+    width: 175px;
+}
+
+nav {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.halfWidth {
+    width: 50%;
+    display: inline-block;
+}
+
+.paukstele {
+    width: 400px;
+}
+.thirdWidth {
+    width: 32%;
+    display: inline-block;
+}

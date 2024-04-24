@@ -1,0 +1,41 @@
+header, main, footer {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.header {
+    color: blue;
+}
+/* nepanaudotas klasės selektorius prasideda*/
+.headerDu {
+    color: green;
+}
+/* baigiasi */
+.headerTrysVienas {
+    font-style: italic;
+}
+
+.headerFooter {
+    font-style: italic;
+}
+
+.nuoroda {
+    color: green
+}
+
+body {
+    background-color: rgb(105, 96, 96);
+}
+
+section {
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.virsus {
+    background-color: chartreuse;
+}
+
+.artiVirsaus {
+    background-color: brown;
+}

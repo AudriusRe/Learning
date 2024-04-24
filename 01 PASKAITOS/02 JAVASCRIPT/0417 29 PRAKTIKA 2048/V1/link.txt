@@ -1,0 +1,4 @@
+KODAS PAIMTAS IS CIA
+https://www.geeksforgeeks.org/design-a-2048-game-in-javascript/
+
+NEVEIKIA

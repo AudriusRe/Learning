@@ -1,0 +1,14 @@
+p {
+    font-size: 20px;
+
+}
+
+.someClass {
+    font-size: 50px;
+    color: blue
+}
+
+#par {
+    font-size: 20px;
+    background-color: red;
+}

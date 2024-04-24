@@ -1,0 +1,11 @@
+img {
+    width: 100px;
+}
+.googleLogo {
+    background-image: url(./FOTO/unsplash.jpg);
+}
+
+i {
+    font-size: 10px;
+    color: pink;
+}

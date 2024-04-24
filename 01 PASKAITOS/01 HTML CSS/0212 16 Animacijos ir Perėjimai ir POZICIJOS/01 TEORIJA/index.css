@@ -1,0 +1,54 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  transition: background-color 4s, width 4s;
+  /* pradzioj nurodau kuri property noriu keist po to laika per kuri pokytis turi ivykti */
+  /* gali buti ir width ar height */
+  /* per kableli galima nurodyti ir kita property kuri norim keisti */
+  /* transition-timing-function: linear; */
+  /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  transition-delay: 2s;
+}
+.box:hover {
+  background-color: violet;
+  width: 400px;
+}
+.animacija {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  animation: pulse 3s infinite;
+  /* cia pradzioj nurodom animacijos keyframe paavdinima, po to per kiek laiko turi animuoti, ir dar veliau nurodoma kiek kartu tai ivykdyti arba siuo atveju infinite reiskia, kad begalybe*/
+  animation-delay: 0.5s;
+  /* sitas delay vyksta tik pries pirma karta paleidziant animacija */
+  animation-timing-function: ease;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+  50% {
+    transform: scale(2);
+    background-color: red;
+  }
+  75% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+  100% {
+    transform: scale(1);
+    background-color: black;
+  }
+}
+/* .animacija:hover {
+  animation: pulse 3s infinite;
+} */

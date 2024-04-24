@@ -1,0 +1,58 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: rgba(128, 128, 128, 0.658);
+}
+header {
+    height: 80px;
+    margin-left: 5px;
+}
+.kair {
+    float: left;
+    padding: 30px 10px;
+    font-size: 17px;
+}
+.des {
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+}
+.des span {
+    padding-left: 10px;
+}
+.kair span {
+    margin-right: 10px;
+}
+.blu {
+    color: rgb(30, 207, 207);
+}
+.juod {
+    color: black;
+    font-weight: 800;
+}
+main {
+    border-top: 1px solid grey;
+
+}
+section {
+    background-color: white;
+}
+main section {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+iframe {
+    margin-left: 20px;
+    margin-top: 7px;
+    
+}
+.bold {
+    font-weight: 800;
+    color: black;
+}
+p {
+    margin-left: 20px;
+}

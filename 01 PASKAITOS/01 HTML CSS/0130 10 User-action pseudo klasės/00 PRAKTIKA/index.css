@@ -1,0 +1,47 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(69, 87, 69);
+  color: white;
+  text-align: center;
+}
+legend {
+  margin: auto;
+}
+input:read-only {
+  background-color: gray;
+}
+input:required {
+  border-top: 5px solid red;
+  border-right: 5px solid red;
+  border-left: 5px solid rgb(231, 110, 110);
+  border-bottom: 5px solid red;
+}
+input[type="number"] {
+  width: 38px;
+}
+input[type="number"]:valid {
+  border-color: green;
+}
+input[type="email"]:valid {
+  border-color: green;
+}
+input[type="password"]:valid {
+  border-color: green;
+}
+input[type="checkbox"]:checked + label {
+  color: blue;
+}
+button {
+  background-color: green;
+  padding: 10px;
+  border-top: 5px solid gray;
+  border-left: 5px solid gray;
+  border-right: 5px solid rgb(73, 73, 73);
+  border-bottom: 5px solid rgb(73, 73, 73);
+}
+button:hover {
+  background-color: darkgreen;
+}

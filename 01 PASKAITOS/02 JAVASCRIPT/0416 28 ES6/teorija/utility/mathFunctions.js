@@ -1,0 +1,16 @@
+//AS LEIDZIU SITA FUNKCIJA PANAUDOTI KITUOSE FAILUOSE
+//PRADZIOJ PARASAU EXPORT
+export function divideNumbers(x, y) {
+  return x / y;
+}
+
+export const PI = 3.14;
+
+//JEI NENORIME EXPORTUOTI TAI TIESIOG NERASOME EXPORT
+const thisExistsOnlyInThisFile = "neeksportuoju sito niekur achachachcahca";
+
+///CIA KAI IS KAZKOKIO FAILO NORIME EKSPORTUOTI KAZKOKI DEFAULT DALYKA TAI RASOME EXPORT DEFAULT IR TIESIOG TA DALYKA
+//TOKS DALYKAS GALI BUTI TIK VIENAS FAILE
+export default () => {
+  return "Vardas";
+};

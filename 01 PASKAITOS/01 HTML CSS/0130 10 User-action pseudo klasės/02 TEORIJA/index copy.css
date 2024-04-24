@@ -1,0 +1,25 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+input:focus {
+  outline: 2px solid yellow;
+}
+#cardNumber:in-range {
+  outline: 5px solid green;
+}
+#cardNumber:out-of-range {
+  outline: 5px solid red;
+}
+#cardNumber:empty {
+  outline: none;
+}
+input:valid {
+  border: 10px solid rgb(21, 179, 179);
+}
+input:invalid {
+  border: 10px solid rgb(179, 21, 166);
+}
+button:hover {
+  background-color: bisque;
+}

@@ -1,0 +1,94 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #eeeeee;
+  margin: 0px 80px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 50px;
+  gap: 20px;
+}
+main div {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.navigation {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+.login {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.help {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.content {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+header {
+  margin: 30px 0;
+}
+nav {
+  padding-top: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #6e6e6e;
+  padding-right: 30px;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  color: #6e6e6e;
+}
+@media screen and (max-width: 613px) {
+  body {
+    margin: 0 20px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  main div {
+    padding-left: 0;
+  }
+  .navigation > nav {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    text-decoration-color: #009cc8;
+    padding-top: 0;
+  }
+  nav a:nth-child(2) {
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+  }
+  nav a:nth-child(4) {
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+  }
+  nav a {
+    color: #009cc8;
+    padding: 15px 0 15px 20px;
+    font-weight: 600;
+  }
+  .login {
+    padding-left: 20px;
+  }
+  .content {
+    padding-left: 20px;
+  }
+  .help {
+    display: none;
+  }
+}

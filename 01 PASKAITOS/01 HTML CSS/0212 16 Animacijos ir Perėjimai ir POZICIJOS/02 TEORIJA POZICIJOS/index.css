@@ -1,0 +1,49 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  height: 300vh;
+}
+div {
+  border: 2px solid violet;
+  height: 100px;
+  width: 100px;
+}
+.positionStatic {
+  position: static;
+}
+.positionRelative {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+.positionFixed {
+  position: fixed;
+  height: unset;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: violet;
+}
+.parentElement {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+  z-index: 10;
+}
+
+.positionAbsolute {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  background-color: lemonchiffon;
+  z-index: 20;
+  /* z-index yra kaip layeris */
+}
+/* sitas pozicionuoja elementa jo tevyniam elemente, ar tiksliau nuo jo */
+.positionSticky {
+  position: sticky;
+  top: 20px;
+}

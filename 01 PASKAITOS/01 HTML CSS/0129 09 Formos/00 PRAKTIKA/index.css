@@ -1,0 +1,45 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 25px;
+}
+body {
+  background-image: url(kelias.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+form {
+  background-color: antiquewhite;
+  height: 80%;
+  width: 65%;
+  margin: auto;
+}
+
+form input,
+textarea {
+  width: 95%;
+  border: 0px;
+  background-color: antiquewhite;
+  border-bottom: 2px solid black;
+}
+h1 {
+  padding-top: 70px;
+  text-align: center;
+  color: darkslategray;
+}
+section {
+  padding: 20px 50px;
+}
+button {
+  background-color: darkslategray;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border: 0px;
+}
+section label,
+input {
+  padding-top: 10px;
+}

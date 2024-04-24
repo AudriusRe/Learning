@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(90deg, blue, purple, red, yellow);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.americanrivers.org/wp-content/uploads/2022/08/Untitled-design-43-2-1024x576.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* min-height zb backgroundui, padaro kad jis neatsikartotu */
+
+img {
+    box-shadow: 5px 5px 8px green, -5px -5px 8px green;
+}

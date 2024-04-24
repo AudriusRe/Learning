@@ -1,0 +1,162 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+div > div {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+}
+.container {
+  margin-bottom: 10px;
+  display: flex;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+}
+.container5 {
+  display: flex;
+  justify-content: space-around;
+}
+.container6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container7 {
+  display: flex;
+  border: 2px solid red;
+  height: 200px;
+}
+.container7 > div {
+  height: unset;
+}
+.container8 {
+  display: flex;
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.container8 > div {
+  height: unset;
+}
+.container9 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: flex-end;
+}
+.container9 > div {
+  height: unset;
+}
+.bigHeight {
+  padding-top: 20px;
+  height: 100px !important;
+}
+.container10 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: baseline;
+}
+.container10 > div {
+  height: unset;
+}
+.container11 {
+  border: 2px solid red;
+  height: 200px;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.container11 > div {
+  height: unset;
+}
+.container12 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+}
+.container12 > div {
+  height: unset;
+}
+.goToTop {
+  align-self: flex-start;
+}
+.container13 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+}
+.container13 > div {
+  height: unset;
+}
+.order2 {
+  order: 2;
+}
+.order1 {
+  order: 1;
+}
+.container14 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+}
+.container14 > div {
+  height: unset;
+  flex-grow: 1;
+}
+.container14 > div:nth-child(2) {
+  flex-grow: 5;
+}
+.container15 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+}
+.container15 > div {
+  height: unset;
+  flex-grow: 1;
+  width: 300px;
+}
+.container15 > div:nth-child(2) {
+  flex-shrink: 0;
+}
+.container16 {
+  border: 2px solid red;
+  height: 200px;
+  align-items: center;
+}
+.container16 > div {
+  height: unset;
+  width: unset;
+  flex-basis: 200px;
+}
+.container16 > div:nth-child(2) {
+  flex-shrink: 0;
+}
+.container16 > div:nth-child(3) {
+  flex-grow: 0;
+}
+.container17 > div {
+  height: unset;
+  width: unset;
+  flex-basis: 200px;
+}
+.container17 > div:nth-child(3) {
+  flex: 2 0 300px;
+}

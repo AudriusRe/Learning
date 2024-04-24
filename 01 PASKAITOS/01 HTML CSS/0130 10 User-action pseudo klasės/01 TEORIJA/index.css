@@ -1,0 +1,50 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: gray;
+}
+.clickMeButton {
+  background: blue;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.clickMeButton:hover {
+  padding: 10px;
+}
+.textInput:focus {
+  background-color: greenyellow;
+}
+input:checked {
+  width: 50px;
+}
+input[type="text"] {
+  border: 2px solid blue;
+}
+input[type="text"]:disabled {
+  border: 2px solid rgb(252, 0, 0);
+}
+input:required {
+  background-color: green;
+}
+a:active {
+  color: aqua;
+  background-color: yellow;
+}
+a:visited {
+  color: pink;
+}
+
+input:out-of-range {
+  border: 5px solid aqua;
+}
+input:in-range {
+  border: 5px solid rgb(52, 255, 1);
+}
+input:read-only {
+  background-color: lightcyan;
+}

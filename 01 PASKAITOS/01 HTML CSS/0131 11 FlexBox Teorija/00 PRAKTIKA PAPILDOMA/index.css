@@ -1,0 +1,200 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body > div {
+  margin: 50px 50px;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  outline: 1px solid purple;
+  display: flex;
+}
+.container div {
+  height: 200px;
+  width: 200px;
+  outline: 1px solid purple;
+  box-sizing: border-box;
+}
+.container1 {
+  flex-wrap: wrap;
+}
+.container1 > .bigBox {
+  width: 400px;
+}
+.container2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container2 > .bigBox {
+  height: 400px;
+}
+.container3 {
+  flex-direction: column;
+}
+.container3 > .virsus {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 600px;
+}
+.container3 > .virsus > .kvadrat {
+  width: 400px;
+  height: 400px;
+}
+.container3 > .apacia {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.container4 {
+  flex-wrap: wrap;
+}
+.container4 .bigBox {
+  width: 250px;
+}
+.container4 .smallBox {
+  width: 100px;
+}
+.container4 .biggerBox {
+  width: 400px;
+  height: 400px;
+}
+.container4 .shorterBox {
+  height: 100px;
+}
+.container4 > .column {
+  flex-direction: column;
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+}
+.container5 {
+  flex-direction: column;
+}
+.container5 > .virsus {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.container5 > .virsus > .ilgas {
+  width: 400px;
+}
+.container5 > .vidurys {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.container5 > .vidurys > div {
+  width: 200px;
+  height: 200px;
+}
+.container5 > .vidurys > .kvadratukai {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container5 > .vidurys > .kvadratukai > div {
+  width: 100px;
+  height: 100px;
+}
+.container5 > .apacia {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+.container5 > .apacia > .ilgas {
+  width: 400px;
+}
+.container6 {
+  flex-direction: column;
+}
+.container6 > div {
+  width: 600px;
+  flex: auto;
+}
+.container6 > .apacia {
+  display: flex;
+  flex-direction: row;
+}
+.container6 > .apacia > div {
+  height: 300px;
+}
+.container6 > .apacia > .kampinis {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex: auto;
+}
+.container6 > .apacia > .kampinis > .dvidalis {
+  display: flex;
+  flex-direction: row;
+}
+.container6 > .apacia > .kampinis > .dvidalis > div {
+  width: 100px;
+  height: 150px;
+}
+.container7 {
+  display: flex;
+  flex-direction: column;
+}
+.container7 > div {
+  flex: auto;
+  width: auto;
+}
+.container7 > .virsus {
+  display: flex;
+  flex-direction: row;
+}
+.container7 > .virsus > div {
+  height: auto;
+}
+.container7 > .virsus > .vk {
+  width: 450px;
+}
+.container7 > .virsus > .vd {
+  width: 150px;
+}
+.container7 > .virsus > .vd > div {
+  height: 150px;
+  width: 150px;
+}
+.container7 > .apacia > div {
+  height: auto;
+}
+.container7 > .apacia > .ad {
+  width: 450px;
+}
+.container7 > .apacia > .ak {
+  width: 150px;
+}
+.container7 > .apacia > .ak > div {
+  height: 150px;
+  width: 150px;
+}
+.container8 {
+  display: flex;
+  flex-direction: column;
+}
+.container8 > div {
+  flex: auto;
+  width: auto;
+}
+.container8 > .apacia {
+  flex-direction: row;
+}
+.container8 > .apacia > div {
+  height: auto;
+}
+.container8 > .apacia > .puse > div {
+  height: 50%;
+}
+.container9 {
+  flex-direction: column;
+}
+.container9 > div {
+  flex: auto;
+  width: auto;
+}

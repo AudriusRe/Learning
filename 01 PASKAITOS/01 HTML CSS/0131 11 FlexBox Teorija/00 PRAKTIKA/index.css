@@ -1,0 +1,75 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(fonas.jpg);
+  margin-left: 200px;
+  width: 80vw;
+}
+/* header {
+  background-color: rgb(181, 240, 18);
+} */
+.headeris {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 100px;
+}
+header a {
+  text-decoration: none;
+  color: brown;
+  font-size: 20px;
+  padding: 20px;
+}
+main {
+  background-color: white;
+  height: 75vh;
+  padding: 40px 30px;
+  font-size: 20px;
+}
+main div {
+  display: flex;
+  padding: 15px;
+}
+main img {
+  height: 250px;
+  width: 350px;
+  flex: none;
+  float: left;
+}
+.kaire {
+  display: flex;
+  flex-direction: column;
+}
+
+.desine {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  float: left;
+  margin: 10px;
+}
+div p {
+  text-align: justify;
+}
+button {
+  /* background-color: rgb(181, 240, 18); */
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  align-self: flex-end;
+}
+footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+header,
+button {
+  background-color: rgb(106, 218, 42);
+}

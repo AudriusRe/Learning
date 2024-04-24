@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    background: green;
+    padding: 10px 0;
+}
+
+/* kaip veikia padding'as? kaip žinot kuris skaičius ką keičia?*/
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* kaip veikia margin? kaip žinot kuris skaičius ką keičia? */
+
+section.pilkas {
+    padding: 20px;
+    background: #eee;
+}
+
+section.zalias {
+    padding: 20px;
+    background: rgb(168, 235, 168);
+}
+
+section img {
+    width: 100%;
+}
+
+h2 {
+    background: green;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.zalias h2 {
+    margin-top: 20px;
+}

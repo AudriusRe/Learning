@@ -1,0 +1,79 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body > div {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.fleksas1,
+.fleksas2,
+.fleksas3,
+.fleksas4 {
+  background-color: #ff5338;
+}
+.fleksas {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 210px;
+  width: 430px;
+  /* border: 5px solid green; */
+  margin-bottom: 20px;
+}
+.fleksas div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+
+  /* border: 5px solid blue; */
+}
+.kairys > div {
+  height: 100%;
+  width: 100%;
+}
+.fleksas > .desinys {
+  display: flex;
+  flex-direction: column;
+}
+
+.desinys > div {
+  width: 100%;
+}
+.desinysUp > div {
+  width: 100%;
+}
+.gridas div {
+  background-color: #a1d8e9;
+}
+.gridas {
+  margin-top: 50px;
+  height: 250px;
+  width: 450px;
+  display: grid;
+  /* grid-template-columns: 1; */
+  grid-template-columns: 100px 100px 100px 100px;
+  /* grid-template-rows: 2; */
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  /* border: 5px solid green; */
+}
+.gridas1 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.gridas2 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.gridas3 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.gridas4 {
+  grid-column: span 1;
+  grid-row: span 1;
+}

@@ -1,0 +1,20 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: purple;
+}
+.first {
+  background-color: pink;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: 400px;
+  left: 400px;
+  transition: background-color 5s;
+}
+.first:hover {
+  background-color: blueviolet;
+  transform: scale(1.2);
+}

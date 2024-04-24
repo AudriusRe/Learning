@@ -1,0 +1,70 @@
+p:first-child {
+  color: red;
+}
+p:last-child {
+  color: blue;
+}
+p:nth-child(2) {
+  color: green;
+}
+p:nth-last-child(2) {
+  color: brown;
+}
+div:only-child {
+  color: orangered;
+}
+p:first-of-type {
+  background-color: aqua;
+}
+p:last-of-type {
+  background-color: greenyellow;
+}
+p:nth-of-type(4) {
+  background-color: orangered;
+}
+p:only-of-type {
+  text-transform: uppercase;
+}
+p::first-letter {
+  font-size: 50px;
+}
+.spanulis {
+  font-style: italic;
+}
+.spanulis::first-letter {
+  font-size: 30px;
+}
+p::first-line {
+  background-color: blueviolet;
+}
+h4::before {
+  content: "kazkas pries ";
+  color: brown;
+}
+h4::after {
+  content: " visiska nesamone";
+  background-color: goldenrod;
+}
+h3::before,
+h3::after,
+h5::before,
+h5::after {
+  content: "xxx";
+  color: red;
+  padding: 10px;
+}
+nav a:not(:first-child)::before {
+  content: "//";
+}
+/* pastilizuoja tai ka pasirenki puslapyje su pele */
+p::selection {
+  background-color: red;
+}
+
+h4:hover {
+  font-size: 50px;
+}
+
+a:hover {
+  text-decoration: none;
+}

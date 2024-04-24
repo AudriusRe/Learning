@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: pink;
+    color: white;
+}
+div {
+    border: 6px solid white;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    width: 100%;
+}
+.section1 {
+    padding: 15px;
+}
+.smallerWidth {
+    width: 300px;
+}
+.biggerWidth {
+    width: 400px;
+}
+.backgroundImage {
+    background: url(https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-YRYNeYvAi9beHK4x3L-8u4h56I3YwHLAQ4G0XzTY4Dg==/Views/1590_D3500_front.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-bottom: 0;    
+}
+p {
+    margin-top: 0;
+}

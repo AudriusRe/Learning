@@ -1,0 +1,94 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  height: 150px;
+  background-color: #02d4b1;
+  color: white;
+  display: flex;
+  align-content: center;
+}
+
+header div {
+  width: 70%;
+  margin: auto;
+}
+
+main {
+  padding-top: 50px;
+  width: 70%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.bttns {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters button {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 5px;
+}
+.add {
+  margin-left: 100px;
+}
+.add button {
+  background-color: #02d4b1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#offers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#offers div {
+  border: 1px solid gray;
+  width: 250px;
+}
+#offers img {
+  width: 250px;
+}
+
+#offers h2 {
+  padding: 0 20px;
+}
+
+#offers p {
+  padding: 0 20px;
+}
+
+#addPropertyButton {
+  background-color: #02d4b1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+section {
+  padding: 8px 0;
+}
+section label {
+  font-weight: 700;
+}
+section input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+}
+section select {
+  padding: 8px;
+  margin-top: 8px;
+}

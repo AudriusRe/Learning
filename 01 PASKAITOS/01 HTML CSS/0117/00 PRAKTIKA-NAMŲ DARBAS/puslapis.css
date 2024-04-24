@@ -1,0 +1,50 @@
+body {
+font-family: 'Titillium Web', sans-serif;
+min-height: 100vh;
+background-color: rgb(216, 208, 208);
+}
+
+header {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/59/87/38/1000_F_459873835_tR3B8YWdFkaksxkjqxuuuLTxjGQTxsZO.jpg);
+    height: 100px;
+    text-align: center;
+}
+h1 {
+    font-size: 34px;
+}
+
+span {
+    color: blue;
+}
+
+#vidurys div {
+    display: inline-block;
+}
+/* čia bandau sudėlioti tris div blokus horizontaliai */
+
+.left {
+    display: inline-block;
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    text-align: center;
+}
+/* baigiu */
+#feisasImg img {
+    width: 150px;
+}
+
+#socialSection img {
+    width: 25px;
+}
+
+footer {
+    text-align: center;
+}

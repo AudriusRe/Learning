@@ -1,0 +1,13 @@
+table {
+    /* border-spacing: 0px; */
+    border-collapse: collapse;
+}
+/* border-collapse padaro kad nebutu tarpu tarp celiu */
+td, th { 
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+body {
+    background-color: lightgray;
+}
