@@ -1,0 +1,94 @@
+/* violetine #657deb
+pilkasheadertxt a5b4ba
+pilkabg #edf2f5
+tekstas #565f6b
+deletebg #fae4e7
+delete #fa6164 */
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #edf2f5;
+  height: 100vh;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 50px;
+  font-weight: 700; 
+  height: 5vh;
+
+}
+a {
+  text-decoration: none;
+  color: #a5b4ba;
+}
+.active {
+  color: #657deb;
+}
+
+main {
+  background-color: #edf2f5;
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+}
+h3, p {
+    color: #565f6b
+}
+.membershipManagementTop, .userManagementTop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.createButton {
+    display: flex;
+    flex-direction: row;
+    background-color: #657deb;
+    border-radius:7px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.createMembershipDiv, .createUserDiv {
+    background-color: #ffffff;
+}
+.createButton p {
+    color: #ffffff;
+    padding-inline: 10px;
+    margin: 2px;
+    font-weight: 500;
+}
+.cancelButton {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius:7px;
+    border: none;
+    padding: 10px;
+}
+.cancelButton p {
+    font-weight: 600;
+}
+.buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+  background-color: #edf2f5;
+  text-align: center;
+  height: 5vh;
+}

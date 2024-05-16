@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="createUser.js"></script>
+    <title>Create User</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">Memberships</a>
+        <a class="active" href="./users.html">Users</a>
+    </header>
+    <main>
+        <div>
+            <h3>Create User</h3>
+            <div class="createUserDiv">
+                <form action="">
+                    <label for="userName">First Name</label>
+                    <input id="userName" type="text"><br>
+                    <label for="userSurname">Last Name</label>
+                    <input id="userSurname" type="text"><br>
+                    <label for="userEmail">Email Address</label>
+                    <input id="userEmail" type="text"><br>
+                    <label for="userMembership">Change Membership</label>
+                    <input id="userMembership" type="text">
+                </form>
+                <div class="buttonsDiv">
+                    <a href="./index.html">
+
+                        <button id="cancelMemberButton"  class="cancelButton"><p>Cancel</p> </button>
+                    </a>
+                    <button id="newUserButton" class="createButton"><p>New User</p></button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright C2024 Audriaus Membership Manager</p>
+    </footer>
+    
+</body></html>

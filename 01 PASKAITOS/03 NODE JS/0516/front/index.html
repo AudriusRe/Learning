@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js"></script>
+    <title>Memberships</title>
+  </head>
+  <body>
+    <header>
+      <a class="active" href="./index.html">Memberships</a>
+      <a href="./users.html">Users</a>
+    </header>
+    <main>
+      <div>
+        <div class="membershipManagement">
+            <div class="membershipManagementTop">
+                <div class="membLeft">
+                  <h3>Membership Management</h3>
+                  <p>
+                    Here you can manage your membership packages. Note: Make sure you
+                    are not deleting or deactivating packages assigned to active users
+                  </p>
+                </div>
+                <div>
+                  <a href="createMembership.html">
+                    <button class="createButton">
+                      <p>+</p>
+                      <p>New Membership</p>
+                    </button>
+                  </a>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div id="membershipContainer"></div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright C2024 Audriaus Membership Manager</p>
+    </footer>
+  </body>
+</html>

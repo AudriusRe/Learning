@@ -1,0 +1,14 @@
+1. pasirenkam aplankalą ir ant jo spaudziam desini klavisa, pasirenkam "open in integrated terminal"
+2. irasom sekancia komanda
+npm init -y
+sita komanda sukuria package.json faila
+3. neatidarinejam to sukurto package.json failo, o irasom sekancia komanda
+npm i express cors dotenv mongoose
+sita komanda iraso express cors dotenv ir mongoose
+4. atsidarom package.json faila ir po priespaskutiniu riestiniu skliaustu parasom sekanti kableli ir eilute
+,
+  "type": "module"
+5. susikuriam nauja faila server.js
+6. pasirasom sekancia komanda i terminala
+nodemon server.js
+sita komanda padaro toki kaip ir liveserveri server.js failui
