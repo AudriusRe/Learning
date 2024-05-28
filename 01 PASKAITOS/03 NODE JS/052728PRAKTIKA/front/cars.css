@@ -26,7 +26,7 @@ html {
     gap: 30px;
     height: 50px;
     font-weight: 500; 
-    height: 15vh;
+    height: 10vh;
   
   }
 
@@ -85,7 +85,7 @@ html {
     border-top: var(--defborder);
     border-bottom: var(--defborder);;
   }
-
+  
   .botDiv button {
     margin: 20px 0;
     border: none;
@@ -94,6 +94,41 @@ html {
     color: var(--darkgrey);
   }
   
+  .addCarDiv {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+    label {
+      color: var(--darkgrey);
+      font-size: 2em;
+    }
+  
+    input {
+      width: 100%;
+      height: 5vh;
+      font-size: 2em;
+      border: var(--defborder);
+      border-radius: 20px;
+      background-color: var(--lightgrey);
+      margin: 5px 0px 20px 0;
+      padding: 10px;
+    }
+ input::placeholder {
+  text-align: center;
+ }
+
   .createButton {
       display: flex;
       flex-direction: row;
