@@ -1,0 +1,144 @@
+
+:root {
+    --lightgrey: #edf2f5;
+    --grey: #a5b4ba;
+    --darkgrey: #565f6b;
+    --defborder: 2px solid var(--lightgrey)
+
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: white;
+    height: auto;
+  }
+  
+  header {
+    background-color: var(--lightgrey);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    height: 50px;
+    font-weight: 500; 
+    height: 15vh;
+  
+  }
+
+  header a {
+    padding-left: 50px;
+    font-size: 2.5em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--grey);
+  }
+  
+  main {
+    background-color: white;
+    height: 60vh;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  #carsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .emptyPar {
+    color: var(--grey);
+  }
+  
+  article {
+    background-color: white;
+    border: var(--defborder);
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+
+  }
+  
+  article h2 {
+    color: var(--darkgrey);
+  }
+
+  article h4 {
+    color: var(--grey);
+  }
+
+  article img {
+    width: 300px;
+    height: 300px;
+    margin: 30px 0;
+  }
+  
+  .midDiv {
+    border-top: var(--defborder);
+    border-bottom: var(--defborder);;
+  }
+
+  .botDiv button {
+    margin: 20px 0;
+    border: none;
+    background: none;
+    font-weight: 700;
+    color: var(--darkgrey);
+  }
+  
+  .createButton {
+      display: flex;
+      flex-direction: row;
+      background-color: var(--grey);
+      border-radius:7px;
+      border: none;
+      padding: 10px;
+      font-size: 15px;
+  }
+  .createButton p {
+      color: #ffffff;
+      padding-inline: 10px;
+      margin: 2px;
+      font-weight: 500;
+  }
+  
+  .cancelButton {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      border-radius:7px;
+      border: none;
+      padding: 10px;
+  }
+  
+  .cancelButton p {
+      font-weight: 600;
+  }
+  
+  .buttonsDiv {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--lightgrey);
+    text-align: center;
+    height: 5vh;
+    color: var(--darkgrey);
+  }
+  
+  
