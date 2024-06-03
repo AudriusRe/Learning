@@ -3,7 +3,7 @@ import db from "../db.js"
 export async function getCompanies(req, res) {
     const { limit } = req.query;
 
-    let query = "select * from companies "
+    let query = "SELECT * from companies "
 
     if(limit !== undefined) {
         query += `limit ${limit} `
@@ -20,7 +20,8 @@ export async function addCompany(req, res) {
     const { rows } = await db.query(`
     INSERT into companies (name, industry, location, profileId) 
     VALUES ('${name}', '${industry}', '${location}', ${profileId}) 
-    RETURNING *`)
+    RETURNING *
+    `)
 
     res.json({ data: rows[0] });
 }
@@ -29,7 +30,10 @@ export async function addCompany(req, res) {
 export async function getCompanyById(req, res) {
     const { id } = req.params;
 
-    const { rows } = await db.query(`select * from companies where id = ${id}`)
+    const { rows } = await db.query(`
+    SELECT * from companies 
+    WHERE id = ${id}
+    `)
 
     res.json(rows)
 }
@@ -38,7 +42,12 @@ export async function updateCompany(req, res) {
     const { id } = req.params;
     const { name, industry, location, profileId } = req.body;
 
-    const response = await db.query(`UPDATE companies SET name = '${name}', industry = '${industry}', location = '${location}', profileId = '${profileId}' WHERE id = ${id} returning *`)
+    const response = await db.query(`
+    UPDATE companies 
+    SET name = '${name}', industry = '${industry}', location = '${location}', profileId = '${profileId}' 
+    WHERE id = ${id} 
+    RETURNING *
+    `)
 
     console.log(response);
 
