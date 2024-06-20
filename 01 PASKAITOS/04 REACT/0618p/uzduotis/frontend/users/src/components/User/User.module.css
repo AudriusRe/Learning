@@ -1,0 +1,20 @@
+.card {
+    background-color: orangered;
+    min-width: 200px;
+    min-height: 100px;
+    border: 1px solid rgb(0, 60, 224);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.card h2 {
+    padding-left: 30px;
+}
+
+.card h3 {
+    padding-left: 30px;
+}
+
+.card h4 {
+    padding-left: 30px;
+}
